@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- slicksliderstarts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     
+
+     <!-- slicksliderEnds -->   
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <!-- ----- -->
+    <script defer src="script.js "></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <!-- navbar-start -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+          <img class="logo" src="logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav  menu-list ms-auto ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Buffet</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Restaurant Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reviews</a>
+              </li>
+              <li>
+                  <button class="btn  username-btn"><a href="#"><i class="fa fa-user"></i> Username</a></button>
+              </li>
+              <li>
+            <button class="btn bell-icon "> <a href="#"><i class="fa fa-bell"></i></a></button>
+            </li>
+            <li>
+              
+                <span><a href="#">EN</a></span>
+            </li>
+            <li>
+                <span>FI</span>
+            </li>
+             </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar-ends -->
+
+
+      <!-- Todays special  Starts -->
+<div class="todays-special-cont mt-4">
+<div class="row">
+    <div class="col-lg-5">
+        <h1 class="todays-special-head">Today's Special Buffet</h1>
+        <p class="todays-special-description">Lorem, ip Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eaque, cupiditate adipisci cum temporibus perspiciatis delectus unde quidem? quibusdam?</p>
+
+        <div class="  mt-5">
+            <div class="row">
+                <div class="col-lg-10 buffet-timing-container">
+                    <button class="btn buffet-timing mt-5 ">
+                        <div class="d-flex buffet-start-end">
+                            <p><span class="start-time">8:30</span> - <span class="end-time">6:00</span></p>
+                            <div class="d-flex discount-percent">
+                                <p><span class="discount-number">40</span></p>
+                                <div class="percent">
+                                    <span>%</span>
+                                     <span>off</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="am-pm-container">
+                            <div class="am-pm">
+                            <span class="am">AM</span>
+                                <span class="pm">PM</span>
+                            </div>
+                            <div>
+                                 <span class="discount-price">$19.00</span>
+                                </div>
+                    </div>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-lg-7 slider">
+        <img class="todays-special-img" src="co.jpeg" alt="">
+        <img class="todays-special-img" src="m.png" alt="">
+        <img class="todays-special-img" src="s.png" alt="">
+
+
+        
+        </div>
+
+       
+</div>
+</div>
+
+<!-- Todays special  Ends  -->
+
+<!-- Restauraunt Buffet starts -->
+<div class="restaurant-buffet-cont mt-5">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="restaurant-buffet-head mb-5">Restaurant Buffet</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 slider">
+            <img class="restaurant-buffet-img" src="co.jpeg" alt="">
+            <img class="restaurant-buffet-img" src="co.jpeg" alt="">
+            <img class="restaurant-buffet-img" src="m.png" alt="">
+            <img class="restaurant-buffet-img" src="s.png" alt="">
+       </div>
+
+        <div class="col-lg-6">
+          
+            <div class="row">
+                <div class="col-lg-12">
+                   <div class="restaurant-buffet-price">
+                       <div class="today-buffet-price">
+                           <p>Today Buffet Price</p>
+                           <p span class="buffet-cost" ><span>20.00€</span></p>
+                       </div>
+                       <div class="today-buffet-time ">
+                           <p>Buffet Time</p>
+                           <div class="todays-buffet-open-close-tag">
+                           <p class="todays-buffet-time"><span>02.00</span>- <span>-22.00</span></p>
+                           <p><span class="open-tag">open</span></p>
+                        </div>
+                       </div>
+                       <div class="today-buffet-discount">
+                           <p>Buffet Discount</p>
+                           <p class="todays-buffet-discount-percent"><span>20%</span></p>
+                       </div>
+                   </div>
+
+
+                </div>
+                
+            </div>
+            
+            <div>
+            <h5 class="text-success more-price-info-text">More Price Info</h5>
+        </div>
+
+        <div class="row mt-3 mb-3">
+            <div class="col-lg-4">
+            <button class="btn bg-danger text-white info-btn">abcdefgchijklsadkl</button>
+            </div>
+            <div class="col-lg-4">
+                <button class="btn bg-danger text-white info-btn  ">abcdefgchijklsadkl</button>
+            </div>
+            <div class="col-lg-4">
+                <button class="btn bg-danger text-white info-btn">abcdefgchijklsadkl</button> 
+            </div>
+        </div>
+        <!-- =-------------- -->
+          <div class=" ">
+              <p><i class="fa fa-circle "></i><small><span class="text-danger">Loremsss</span> ipsum dolor sit, amet consectetur <span class="text-danger">adipisicing</span> Lorem, ipsum dolor. </small></p>
+              <p><i class="fa fa-circle"></i><small><span class="text-danger">Loremsss</span> ipsum dolor sit, amet consectetur <span class="text-danger"> adipisicing</span> Lorem, ipsum dolor. </small></p>
+          </div>
+
+          <!-- =----------- -->
+          <hr class="mt-3 mb-2" style="width:90% ; margin:0 auto;">
+          <!-- ----------- -->
+          <div>
+         <h4 class="text-success buffet-description-text">Buffet Description</h4>
+         <p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda suscipit veniam dolor maiores animi hic ipsum, sequi inventore pariatur beatae molestiae ex sint praesentium aut quas iure, vero fugiat?</small></p>
+        </div>
+        
+
+          <div>
+
+          </div>
+
+        </div>
+ 
+
+
+    </div>
+
+    
+</div>
+
+
+<!-- Restauraunt Buffet slider -->
+<div class="buffet-slider text-center">
+    <div class=" row buffet-slider-1 ">
+        <div class="col-lg-4 " >
+            <div class="buffet-slider-card">
+                <img class="buffet-slider-img rounded-circle" src="s.png" alt="">
+                <div class="buffet-slider-card-body">
+                    <div class="buffet-slider-card-description">
+                   <span><b>Monday</b></span>
+                    <p class="des"><small>sit,   quibusdam molestias eveniet rem esse tenetur! Lorem, ipsum dolor. In recusandae?</small></p>
+                    <p><span><b>$ 30</b></span></p>
+                </div>
+                </div>
+            </div>
+       </div>
+       <div class="col-lg-4 " >
+        <div class="buffet-slider-card">
+            <img class="buffet-slider-img rounded-circle" src="s.png" alt="">
+            <div class="buffet-slider-card-body">
+                <div class="buffet-slider-card-description">
+               <span><b>Monday</b></span>
+                <p class="des"><small>sit,   quibusdam molestias eveniet rem esse tenetur! Lorem, ipsum dolor. In recusandae?</small></p>
+                 <span><b>$30</b></span>
+            </div>
+            </div>
+        </div>
+   </div>
+
+   <div class="col-lg-4" >
+    <div class="buffet-slider-card">
+        <img class="buffet-slider-img rounded-circle" src="s.png" alt="">
+        <div class="buffet-slider-card-body">
+            <div class="buffet-slider-card-description">
+           <span><b>Monday</b></span>
+            <p class="des"><small>sit,   quibusdam molestias eveniet rem esse tenetur! Lorem, ipsum dolor. In recusandae?</small></p>
+            <p><span><b>$ 30</b></span></p>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-4 " >
+    <div class="buffet-slider-card">
+        <img class="buffet-slider-img rounded-circle" src="s.png" alt="">
+        <div class="buffet-slider-card-body">
+            <div class="buffet-slider-card-description">
+           <span><b>Monday</b></span>
+            <p class="des"><small>sit,   quibusdam molestias eveniet rem esse tenetur! Lorem, ipsum dolor. In recusandae?</small></p>
+            <p class=""><span><b>$ 30</b></span></p>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+    
+    <!-- slick slider Arrow -->
+<span class="arrow-right"><i class="fa fa-arrow-right"></i></span>
+   
+    
+    <span class="arrow-left">
+        <i class="fa fa-arrow-left"></i>
+    </span>
+     <!-- slick slider Arrow ENds -->
+
+</div>
+
+<!-- Restaurant Buffet slider ends -->
+<!-- ---------------- -->
+
+<!-- Lunch box section starts -->
+<div class="lunch-box-section mt-5">
+<div class="row">
+    <div class="lunch-box-description col-lg-6">
+        <h1 class="restaurant-buffet-head mb-5">Lunch Box Name</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias magnam magni voluptate est dolores, eligendi hic odit corporis porro. Dignissimos debitis blanditiis non quaerat quod ut quas est velit optio!</p>
+
+        <div class="lunch-box-price-btn">
+            <p ><span class="lunch-box-price">$ 20</span></p>
+            <button class="btn lunch-box-btn "><i class="fa fa-plus "></i> Add</button>
+        </div>
+        </div>
+        
+        <div class="col-lg-6">
+            <img class="lunch-box-img" src="co.jpeg" alt="">
+        </div>
+       
+</div>
+</div>
+
+<!-- Lunch box section Ends -->
+<!-- --------------------------------------- -->
+<!-- /* pay-through section starts */ -->
+<div class="pay-through-section">
+<div class="row mt-4 mb-4">
+   <div class="col-lg-12">
+       <h1 class="text-center pay-through-head">Pay Through</h1>
+   </div>
+</div>
+<div class="row mb-4">
+    <div class="col-lg-12">
+   <div class="pay-through-imgs mt-4">
+       <img class="pay-through-img" src="mastercard.png" alt="">
+       <img class="pay-through-img" src="visa.webp" alt="">
+       <img class="pay-through-img" src="bitcoin.png" alt="">
+       <img class="pay-through-img" src="nft.png" alt="">
+       <img class="pay-through-img" src="op.jpeg" alt="">
+       <img class="pay-through-img" src="tesla.jpeg" alt="">
+       <img class="pay-through-img" src="sastopanki.png" alt="">
+       <img class="pay-through-img" src="eth.jpeg" alt="">
+       <img class="pay-through-img" src="bank-logo.png" alt="">
+       <img class="pay-through-img" src="mastercard.png" alt="">
+       <img class="pay-through-img" src="paypal.png" alt="">
+       <img class="pay-through-img" src="mercedes.jpeg" alt="">
+       <img class="pay-through-img" src="visa.webp" alt="">
+   </div>
+    </div>
+</div>
+</div>
+<hr>
+<!-- /* pay-through section ends*/ -->
+<!-- -------------------------------------- -->
+<!-- Footer section Starts -->
+<div class="footer">
+    <div class="row">
+        <div class="col-lg-2 footer-cont">
+            <img class="footer-logo" src="bank-logo.png" alt="">
+            <div class="social-media-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-skype"></i>
+            </div>  
+        </div>
+
+        <div class="col-lg-10">
+            <div class="footer-menu-container">
+                <div>
+                    <h6 class="mb-4">Menu</h6>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                </div>
+
+                <div>
+                    <h6 class="mb-4">Menu</h6>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                </div>
+
+                <div>
+                    <h6 class="mb-4">Menu</h6>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                </div>
+
+                <div>
+                    <h6 class="mb-4">Menu</h6>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                    <p>Line1</p>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+
+    <div class="row ">
+        <div class="col-lg-12">
+            <div class="foot-end">
+                <div class="footer-end-items">
+                    <p>privacy policy</p>
+                    <p>privacy policy</p>
+                    <p>privacy policy</p>
+                    <p>privacy policy</p>
+                </div>
+
+              <div class="footer-end-items-2">
+                  <p>prepared by &copy; pratikraj 2022</p>
+              </div>
+
+
+
+            </div>
+              
+
+           
+
+        </div>
+
+        
+
+        
+    </div>
+
+</div>
+
+<!-- Footer section ends -->
+</div>
+
+</body>
+</html>

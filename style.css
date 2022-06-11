@@ -1,0 +1,539 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 50px;
+}
+
+ a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.username-btn a{
+    color: aliceblue;
+}
+.username-btn{
+border: 2px solid orangered;
+border-radius: 50px;
+background-color: orangered;
+color: aliceblue;
+}
+.menu-list{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.bell-icon{
+    border: 2px solid orangered;
+    border-radius: 50px;
+}
+.bell-icon a{
+    color: orangered;
+}
+
+
+
+/* ---------------------Todays special */
+.todays-special-cont{
+
+border-radius:50px ;
+padding: 20px;
+
+box-shadow: -1px 2px 3px 4px rgb(245, 233, 233);
+}
+.buffet-timing{
+   
+line-height: 8px;
+border: 1px solid rgb(196, 203, 196);
+border-radius: 50px;
+padding: 10px 20px;
+box-shadow:2px 2px  3px rgb(133, 131, 131);
+}
+
+.todays-special-head{
+    color: orangered;
+    font-size: 3.8rem;
+    letter-spacing: 4px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+
+.todays-special-img{
+    width: 100%;
+    height: 420px;
+    border-radius: 200px 0px 0px 200px;
+    object-fit: cover;
+}
+.buffet-start-end{
+    gap: 2rem;
+}
+.discount-percent{
+    gap: 10px;
+}
+.percent{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-size: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.start-time, .end-time,.discount-number{
+    color: green;
+    font-weight: bolder;
+}
+.am-pm-container{
+    display: flex;
+    gap: 3rem;
+    font-size: 9px;
+}
+
+.am-pm{
+    display: flex;
+  gap: 3.7rem;
+}
+.am{
+    align-self: flex-end;
+}
+.discount-price{
+    /* letter-spacing: 3px; */
+}
+
+/* Todays special  Ends */
+
+/* Restaurant Buffet starts */
+
+.restaurant-buffet-head{
+    color: orangered;
+    font-size: 3rem;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.restaurant-buffet-cont{
+    box-shadow: -1px 2px 3px 4px rgb(245, 233, 233);
+    padding: 20px;
+    border-radius:50px ;
+    margin-bottom: 20px ;
+}
+
+.restaurant-buffet-img{
+    
+    width: 100%;
+    height: 420px;
+    border-radius: 0px 200px 200px 0px;
+    object-fit: cover;
+
+}
+.open-tag{
+    background-color: green;
+    color: white;
+    padding: 4px 15px;
+    border-radius: 50px;
+}
+
+
+.restaurant-buffet-price{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 70%;
+}
+
+.today-buffet-price{
+    display: flex;
+    gap: 2rem;
+ 
+}
+.today-buffet-time {
+    display: flex;
+    gap: 5rem;
+}
+.today-buffet-discount{
+    display: flex;
+    gap: 3.2rem;
+}
+
+.buffet-cost,.todays-buffet-time,.todays-buffet-discount-percent{
+    font-weight: bolder;
+    color: red;
+}
+.more-price-info-text{
+    font-weight: bolder;
+}
+.todays-buffet-open-close-tag{
+    display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---- */
+
+.fa-circle{
+    margin-right: 5px;
+    color: red;
+}
+
+.buffet-description-text{
+    font-weight: bolder;
+
+}
+/* Restaurant Buffet Ends*/
+
+/* ----------------------- */
+ /* Restauraunt Buffet slider  */
+.buffet-slider{
+  position: relative;
+  /* width: 100%; */
+
+ 
+}
+
+.buffet-slider-1{
+   width: 77%;
+   margin: 0 auto;
+   
+   
+}
+
+ .buffet-slider-card{
+     width: 23rem;
+     
+     height: 300px;
+     display: flex;
+    flex-direction: column;
+    
+    
+    align-items:center;
+  
+    position: relative;
+    
+ }
+ .buffet-slider-img{
+     width: 150px ;
+     position: absolute;
+     top: 2px;
+     z-index: 1;
+     top: 1rem;
+ }
+
+ .buffet-slider-card-body{
+    position: absolute;
+     width: 240px;
+     height: 210px;
+
+     text-align: center;
+     
+     border-radius: 200px 200px 0px 0px;
+     padding:1rem 0rem ;
+     background-color: rgb(239, 232, 232);
+    
+     
+     top: 5rem;
+     box-shadow: 2px 4px 8px rgb(190, 186, 186);
+ }
+.des{
+    /* height: 70px; */
+    overflow-y: scroll;
+    font-weight: lighter;
+    font-size: 12px;
+    /* padding: 20px; */
+    /* position: absolute; */
+}
+.buffet-slider-card-description{
+    margin-top: 78px;
+    padding: 2px;
+}
+
+  /* Restauraunt Buffet slider  Ends */
+
+  /* -------------------------- */
+/* slick slides classes ends */
+
+
+
+.arrow-right{
+    background-color: rgb(255, 110, 62);
+    padding: 6px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+   right: 0%;
+    color: white;
+   
+}
+
+.arrow-left{
+    background-color: rgb(255, 110, 62);
+    padding: 6px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    color: white;
+  
+   
+}
+
+/* Lunch box section starts */
+
+.lunch-box-section{
+    margin-top: 20px ;
+     border-radius:50px ; 
+padding: 20px;
+    box-shadow: -1px 2px 3px 4px rgb(245, 233, 233);
+}
+
+.lunch-box-description{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.lunch-box-price-btn{
+   align-self: flex-end;
+   
+
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.lunch-box-btn{
+    padding: 10px 30px;
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: white;
+}
+.lunch-box-price{
+   align-self: center;
+   font-weight: bolder;
+   font-size:1.3rem ;
+   
+}
+.fa-plus{
+    margin-right: 8px;
+}
+
+.lunch-box-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 13px;
+}
+/* Lunch box section ends */
+/* ------------------------------- */
+/* Pay through section */
+.pay-through-head{
+    color: orangered;
+    font-size: 3.8rem;
+    letter-spacing: 4px;
+}
+.pay-through-imgs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pay-through-img{
+    width: 3%;
+}
+  
+/* Pay through section ends */
+
+/* ------------------------------ */
+/* Lunch box section Ends */
+/* --- */
+
+/* footer starts */
+
+.footer-cont{
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 0.5rem;
+}
+.footer-logo{
+    width: 170px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.social-media-icons{
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-menu-container{
+    margin-top: 3rem;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foot-end{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+    /* align-items: flex-start; */
+    color: aliceblue;
+    font-size: 12px;
+    padding: 14px;
+}
+.footer-end-items{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+/* footer ends */
+
+@media screen and (max-width:992px){
+   .buffet-timing{
+       margin-bottom: 20px;}
+
+.buffet-timing-container{
+    display: flex;
+    justify-content: center;
+
+}
+   .todays-special-description{
+       margin-bottom: -50px;
+   }
+
+   .todays-special-img{
+    width: 100%;
+    height: 220px;
+    
+}
+
+.slider2{
+    margin-bottom: 40px;
+}
+.restaurant-buffet-img{
+    width: 100%;
+    height: 220px;
+    margin-bottom: 10PX;
+}
+.info-btn{
+    margin-bottom: 8px;
+}
+
+.todays-special-head{
+    font-size:2rem;
+}
+
+
+.lunch-box-price-btn{
+   margin-bottom: 2rem;
+ 
+ }
+
+ .buffet-slider-1{
+    width: 100%;
+    margin: 0 auto;
+    /* margin: 4%; */
+    
+ }
+
+ 
+
+.arrow-left{
+  
+    top: 50%;
+    left: 3%;
+    }
+    .buffet-slider-1{
+        /* width: 100%; */
+        
+      
+        }
+
+        .buffet-slider-1{
+            /* width: 100%;
+            margin: 0 auto; */
+            margin-left: 1.2rem;
+            
+         }
+
+        
+
+}
+
+@media screen and (max-width:420px){
+    .buffet-slider-1{
+      
+        margin-left: 4%;
+        
+     }
+}
+
+@media screen and (max-width:390px){
+    .buffet-slider-1{
+      
+        margin-left: 0.2%;
+        
+     }
+}
+
+@media screen and (max-width:380px){
+    .buffet-slider-1{
+      
+        margin-left:-1%;
+        
+     }
+}
+
+@media screen and (max-width:280px){
+
+    .todays-buffet-open-close-tag{
+        display: flex;
+        flex-direction: column;
+        }
+
+   
+    .buffet-slider-card{
+        width: 100%;
+       height: 380px;}
+
+   
+.restaurant-buffet-head{
+    font-size: 2rem;
+}
+
+    .arrow-right, .arrow-left{
+       
+        top: 42%;
+      
+    }
+
+    .buffet-slider-card-body{
+       
+         width: 222px;
+        padding:10px ;
+          }
+
+          
+
+            .buffet-slider-1{
+                width: 100%;
+                margin: 0 auto;
+                
+                
+             }
+
+}
+
+
